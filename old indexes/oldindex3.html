@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Venice 2021 - Mirador example 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title">
+          Something
+        </p>
+        <p class="subtitle">
+          Test Mirador 
+        </p>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/mirador@beta/dist/mirador.min.js"></script>
+
+<div id="my-mirador"/>
+
+<script type="text/javascript">
+var mirador = Mirador.viewer({
+  "id": "my-mirador",
+  "manifests": {
+    "manifest.json" : {
+      "provider": "University of Venice - VeDPH Venice Centre for Digital and Public Humanities"
+    }
+  },
+  "windows": [
+    {
+      "loadedManifest": "manifest.json",
+      "canvasIndex": 2,
+      "thumbnailNavigationPosition": 'far-bottom'
+    }
+  ]
+});
+</script>
+
+  </body>
+</html>
