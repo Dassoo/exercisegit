@@ -1,5 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
+<<<<<<< HEAD
 	"@id": "http://c5319ba8-4050-43da-a687-003ab431ee1c",
 	"@type": "sc:Manifest",
 	"label": "something",
@@ -7,14 +8,30 @@
 	"description": [
 		{
 			"@value": "",
+=======
+	"@id": "http://529da7e0-2e2f-4ba0-b272-4882dad957b6",
+	"@type": "sc:Manifest",
+	"label": "Yale British Art",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "A famous painting, uncertain dates",
+>>>>>>> 96306860937494a02ab52c059a8d0f99a107e864
 			"@language": "en"
 		}
 	],
 	"license": "https://creativecommons.org/licenses/by/3.0/",
+<<<<<<< HEAD
 	"attribution": "",
 	"sequences": [
 		{
 			"@id": "http://c15c8150-c59f-42d5-a1c7-6b67cd17b9ee",
+=======
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://90f8ccbd-d1f9-46c1-b1f1-e4c4b186b518",
+>>>>>>> 96306860937494a02ab52c059a8d0f99a107e864
 			"@type": "sc:Sequence",
 			"label": [
 				{
@@ -24,6 +41,7 @@
 			],
 			"canvases": [
 				{
+<<<<<<< HEAD
 					"@id": "http://9b5ca7b7-d367-4f22-b85d-5b066d7a7322",
 					"@type": "sc:Canvas",
 					"label": "Something from Gallica",
@@ -66,10 +84,26 @@
 							"motivation": "sc:painting",
 							"resource": {
 								"@id": "https://images.lib.cam.ac.uk/iiif/MS-RCMS-00010-BOX-00015-00017-000-00001.jp2/full/full/0/default.jpg",
+=======
+					"@id": "http://43829c57-0ced-4cdf-a913-2590fd708669",
+					"@type": "sc:Canvas",
+					"label": "Dog painting 1",
+					"height": "4275",
+					"width": "4941",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://875c563c-726d-44b4-ac5f-a75b562d7a7e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://images.britishart.yale.edu/iiif/2/9e08d901-a26b-4acb-a768-28f90a062adf/full/full/0/default.jpg",
+>>>>>>> 96306860937494a02ab52c059a8d0f99a107e864
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
+<<<<<<< HEAD
 									"@id": "https://images.lib.cam.ac.uk/iiif/MS-RCMS-00010-BOX-00015-00017-000-00001.jp2",
 									"profile": [
 										"http://iiif.io/api/image/2/level1.json",
@@ -104,6 +138,57 @@
 						}
 					],
 					"related": []
+=======
+									"@id": "https://images.britishart.yale.edu/iiif/2/9e08d901-a26b-4acb-a768-28f90a062adf",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 400000000,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"sizeAboveFull",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 4275,
+								"width": 4941
+							},
+							"on": "http://43829c57-0ced-4cdf-a913-2590fd708669"
+						}
+					],
+					"related": ""
+>>>>>>> 96306860937494a02ab52c059a8d0f99a107e864
 				}
 			]
 		}
